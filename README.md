@@ -99,7 +99,22 @@ MemoryError: Unable to allocate 445. MiB for an array with shape (24, 2432027) a
 
 ---
 
-## 🚀 6. Installation & Quickstart
+## 📥 6. Dataset Download & Setup (Data Kahan Se Milega?)
+
+GitHub par large files (~1 GB) commit nahi ki ja sakteen, isliye CSV files `.gitignore` mein hain. Kisi bhi naye user ko yeh project chalane ke liye sirf yeh karna hoga:
+
+1. **Dataset Download Source:**
+   - **Official Portal:** [Canadian Institute for Cybersecurity (CIC) UNB](https://www.unb.ca/cic/datasets/ids-2017.html)
+   - **Kaggle Mirror (Direct Fast Download):** [Kaggle CICIDS2017 Dataset](https://www.kaggle.com/datasets/cicdataset/cicids2017)
+2. **Zaroori File (Required):**
+   - Sirf yeh ek file download karein:  
+     `Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv` (~77 MB)
+3. **File Placement:**
+   - Downloaded CSV file ko project ke root directory mein rakh dein (jahan `pipeline_optimized.py` mojud hai).
+
+---
+
+## 🚀 7. Installation & Quickstart
 
 ### Step 1: Clone / Open Directory
 Apne terminal ya command prompt mein project folder mein jayein:
